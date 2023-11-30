@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../assets/about1.png';
+import aboutImg from '/images/about/about1.png';
 
 const About = () => {
   return (
@@ -29,14 +29,14 @@ const About = () => {
           <div className='md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12'>
             <div className='space-y-8'>
               <div className='flex items-center gap-4'>
-                <img src="/src/assets/icons/client.png" alt="" />
+                <img src="/icons/client.png" alt="" />
                 <div>
                   <h4 className='text-2xl text-neutralDGrey font-semibold'>200+</h4>
                   <p>Clientes</p>
                 </div>
               </div>
               <div className='flex items-center gap-4'>
-                <img src="/src/assets/icons/events.png" alt="" />
+                <img src="/icons/events.png" alt="" />
                 <div>
                   <h4 className='text-2xl text-neutralDGrey font-semibold'>100+</h4>
                   <p>Eventos</p>
@@ -46,14 +46,14 @@ const About = () => {
 
             <div className='space-y-8'>
               <div className='flex items-center gap-4'>
-                <img src="/src/assets/icons/club.png" alt="" />
+                <img src="/icons/club.png" alt="" />
                 <div>
                   <h4 className='text-2xl text-neutralDGrey font-semibold'>150</h4>
                   <p>Equipo</p>
                 </div>
               </div>
               <div className='flex items-center gap-4'>
-                <img src="/src/assets/icons/memberss.png" alt="" />
+                <img src="/icons/memberss.png" alt="" />
                 <div>
                   <h4 className='text-2xl text-neutralDGrey font-semibold'>300,000</h4>
                   <p>Miembros</p>

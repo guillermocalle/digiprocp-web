@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutImg from '../assets/mobilelogin.png';
-import Maecenas from '../assets/maecenas.png';
+import aboutImg from '/images/about/mobilelogin.png';
+import Maecenas from '/images/review/maecenas.png';
 
 const Products = () => {
   return (
@@ -32,12 +32,12 @@ const Products = () => {
               <p className='text-base text-neutralGrey mb-8'>Socio en Agencia Nacional</p>
               <div>
                 <div className='flex items-center gap-8 flex-wrap'>
-                  <img src="/src/assets/company1.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company2.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company3.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company4.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company5.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company6.png" alt="" className='cursor-pointer' />
+                  <img src="/images/company/company1.png" alt="" className='cursor-pointer' />
+                  <img src="/images/company/company2.png" alt="" className='cursor-pointer' />
+                  <img src="/images/company/company3.png" alt="" className='cursor-pointer' />
+                  <img src="/images/company/company4.png" alt="" className='cursor-pointer' />
+                  <img src="/images/company/company5.png" alt="" className='cursor-pointer' />
+                  <img src="/images/company/company6.png" alt="" className='cursor-pointer' />
                   <div className='flex items-center gap-8'>
                     <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Conozca a todos los clientes{" "}
                       <svg

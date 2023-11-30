@@ -3,9 +3,9 @@ import React from 'react';
 const Blog = () => {
 
   const blogs = [
-    { id: 1, title: "Cómo Construir una Marca Sólida en el Mundo Digital", image: "/src/assets/blog1.png" },
-    { id: 2, title: "El Poder de las Redes Sociales: Estrategias que Transforman Seguidores en Clientes", image: "/src/assets/blog2.png" },
-    { id: 3, title: "La Importancia del Marketing de Contenidos en un Mundo Digitalizado", image: "/src/assets/blog3.png" },
+    { id: 1, title: "Cómo Construir una Marca Sólida en el Mundo Digital", image: "/images/blog/blog1.png" },
+    { id: 2, title: "El Poder de las Redes Sociales: Estrategias que Transforman Seguidores en Clientes", image: "/images/blog/blog2.png" },
+    { id: 3, title: "La Importancia del Marketing de Contenidos en un Mundo Digitalizado", image: "/images/blog/blog3.png" },
   ];
 
   return (

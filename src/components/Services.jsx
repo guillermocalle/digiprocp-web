@@ -3,9 +3,9 @@ import React from 'react';
 const Services = () => {
 
   const services = [
-    { id: 1, title: "Marketing Digital Integral", description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sed incidunt recusandae eaque veritatis, cumque similique", image: "/src/assets/icons/memberss.png" },
-    { id: 2, title: "Diseño Grafico", description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sed incidunt recusandae eaque veritatis, cumque similique", image: "/src/assets/icons/associationss.png" },
-    { id: 3, title: "Consultoria Estrategica", description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sed incidunt recusandae eaque veritatis, cumque similique", image: "/src/assets/icons/club.png" },
+    { id: 1, title: "Marketing Digital Integral", description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sed incidunt recusandae eaque veritatis, cumque similique", image: "/icons/memberss.png" },
+    { id: 2, title: "Diseño Grafico", description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sed incidunt recusandae eaque veritatis, cumque similique", image: "/icons/associationss.png" },
+    { id: 3, title: "Consultoria Estrategica", description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sed incidunt recusandae eaque veritatis, cumque similique", image: "/icons/club.png" },
   ]
 
   return (
@@ -15,13 +15,13 @@ const Services = () => {
         <p className='text-neutralGrey'>Nuestra reputacion se construye en la satisfaccion de nuestros clientes...</p>
 
         <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-          <img src="/src/assets/company1.png" alt="" />
-          <img src="/src/assets/company2.png" alt="" />
-          <img src="/src/assets/company3.png" alt="" />
-          <img src="/src/assets/company4.png" alt="" />
-          <img src="/src/assets/company5.png" alt="" />
-          <img src="/src/assets/company6.png" alt="" />
-          <img src="/src/assets/company7.png" alt="" />
+          <img src="/images/company/company1.png" alt="" />
+          <img src="/images/company/company2.png" alt="" />
+          <img src="/images/company/company3.png" alt="" />
+          <img src="/images/company/company4.png" alt="" />
+          <img src="/images/company/company5.png" alt="" />
+          <img src="/images/company/company6.png" alt="" />
+          <img src="/images/company/company7.png" alt="" />
 
         </div>
       </div>
